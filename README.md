@@ -40,6 +40,8 @@ This file showcases a basic HTML structure with paragraphs, buttons, and a link.
 
 ```html
 
+<style>
+
 /* CSS for Subscribe button */
 .subscribe-button 
     {
@@ -82,6 +84,8 @@ This file showcases a basic HTML structure with paragraphs, buttons, and a link.
         font-size: 15px;
         margin-left: 8px;
     }
+    
+</style>
 
     <!-- Subscribe Button -->
     <button class="subscribe-button">SUBSCRIBE</button>
