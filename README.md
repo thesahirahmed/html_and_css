@@ -201,6 +201,102 @@ This file showcases a basic HTML structure with paragraphs, buttons, and a link.
 
 </details>
 
+### 4. `box-model.html`
+
+#### Description:
+`box-model.html` this CSS box model describes the rectangular boxes generated for elements in the document tree.
+
+#### Content:
+
+<details>
+
+```html
+<style>
+
+button
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    vertical-align: top;
+    font-weight: bold;
+    cursor: pointer;
+}
+.subscribe-button
+{
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    margin-right: 15px;
+    transition: opacity 0.15s;
+
+}
+
+.subscribe-button:hover
+{
+    opacity: 0.75;
+}
+
+.subscribe-button:active
+{
+    opacity: 0.4;
+}
+
+.join-button
+{
+    color: rgb(0, 0, 177);
+    background-color: white;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: rgb(0, 0, 177);
+    margin-right: 15px;
+    border-style: solid;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.join-button:hover
+{
+    color: white;
+    background-color: rgb(0, 0, 177);
+}
+
+.tweet-button
+{
+    border-radius: 20px;
+    border-width: 1px;
+    color: white;
+    background-color: rgb(10, 186, 255);
+    border-width: 1px;
+    border-color: rgb(10, 186, 255);
+    transition: box-shadow 0.15s;
+}
+
+.tweet-button:hover
+{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15s);
+}
+
+</style>
+
+
+<button class="subscribe-button"> 
+    Subscribe 
+</button>
+
+<button class="join-button">
+    Join
+</button>
+
+<button class="tweet-button">
+    Tweet
+</button>
+```
+
+</details>
 
 ### End Note
 Feel free to customize the content and styling of this README file to better suit your project's specifics and preferences!!!
