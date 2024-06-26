@@ -298,5 +298,112 @@ button
 
 </details>
 
+### 5. `text-style.html`
+
+#### Description:
+`text-style.html` showcases different techniques and CSS properties for styling text in HTML.
+
+#### Content:
+
+<details>
+
+```html
+<style>
+
+    p
+    {
+        font-family: Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .head 
+    {
+        font-weight: bold;
+        font-size: 18px;
+        width: 300px;
+        line-height: 25px;
+        margin-bottom: 5px;
+    }
+
+    .stats
+    {
+        color: rgb(96, 96, 96);
+        font-size: 14px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .user
+    {
+        font-size: 14px;
+        color: rgb(32, 32, 32);
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .description
+    {
+        font-size: 14px;
+        width: 280px;
+        color: rgb(32, 32, 32);
+        line-height: 20px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+
+    .tag
+    {
+        margin-bottom: 50px;
+        font-size: 14px;
+        background-color: rgb(277, 65, 64);
+        color: white;
+        text-align: center;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
+    .shop-now
+    {
+        transition: underline 0.5s;
+        cursor: pointer;
+    }
+
+    .shop-now:hover
+    {
+        text-decoration: underline;
+    }
+
+</style>
+
+<p class ="head">
+    Talking Tech and AI with Google CEO Sundar Pichai!
+</p>
+
+<p class ="stats">
+    3.4M views &middot; 6 months ago
+</p>
+
+<p class = "user">
+    Sahir Ahmed &#10004;
+</p>
+
+<p class = "description">
+    Talking tech and AI on the heels of GOOGLE I/O. Also a daily driver phone reveal from Google's CEO. Shouout to Sundar!
+</p>
+
+<p class ="tag">
+    Shop early for the best selection of holiday favourites. 
+    <span class="shop-now">
+        Shop Now &gt
+    </span>
+</p>
+
+```
+
+</details>
+
+
+
 ### End Note
 Feel free to customize the content and styling of this README file to better suit your project's specifics and preferences!!!
