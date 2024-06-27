@@ -403,7 +403,101 @@ button
 
 </details>
 
+## 📁 the_html_structure
 
+### 1. `html_structure.html`
+
+#### Description:
+This file showcases the basic HTML structure with various key points, including the doctype declaration, head and body sections, and the use of HTML tags to structure content.
+
+#### Content:
+
+<details>
+
+```html
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title>
+            First HTML Page
+        </title>
+        <link rel="stylesheet" type="text/css" href="css_styles/style.css">
+    </head>
+
+    <body>
+
+        <p class="new">
+            My First Video
+        </p>
+
+        <button class="subscribe-button">
+            Subscribe
+        </button>
+
+        <button class ="join-button">
+            Join
+        </button>
+
+    </body>
+
+</html>
+```
+
+</details>
+
+### 2. 📁css_styles
+
+#### `styles.css`:
+A CSS file is used to style and format the HTML elements of a web page, including layout, colors, fonts, and other visual aspects.
+
+#### Content:
+
+<details>
+
+```css
+
+.new
+{
+    font-family: Arial;
+    font-size: 20px;
+    background-color: #f0f0f0;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.subscribe-button
+{
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer
+}
+
+.join-button
+{
+    color: rgb(25, 0, 255);
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(25, 0, 255);
+    padding: 8px 20px;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+```
+
+</details>
 
 ### End Note
 Feel free to customize the content and styling of this README file to better suit your project's specifics and preferences!!!
